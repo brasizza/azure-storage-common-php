@@ -1,3 +1,13 @@
+> **Community fork.** Microsoft retired the Azure Storage PHP client libraries on 17 March 2024 and archived the original
+> repository. This fork (`brasizza/azure-storage-common`) keeps the library working and receives fixes. It is a drop-in
+> replacement for `microsoft/azure-storage-common`: the `MicrosoftAzure\Storage\...` namespace is unchanged.
+> Not affiliated with or endorsed by Microsoft. Original code © Microsoft Corporation, MIT License.
+>
+> ```bash
+> composer remove microsoft/azure-storage-common
+> composer require brasizza/azure-storage-common
+> ```
+
 # Microsoft Azure Storage Common PHP Client Library (Deprecated)
 
 For more details on the retirement and alternatives to using this project, visit [Retirement notice: The Azure Storage PHP client libraries will be retired on 17 March 2024](https://aka.ms/AzStoragePHPSDKRetirement).
